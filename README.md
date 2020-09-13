@@ -1,3 +1,6 @@
+### LIVE DEMO :
+[https://hulu-clone-2ce4f.web.app/] (https://hulu-clone-2ce4f.web.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
