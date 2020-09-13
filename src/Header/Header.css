@@ -1,0 +1,62 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+    padding-top: 10px;
+    overflow-x: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.header::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .header {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.header__icon{
+    text-align: center;
+}
+
+.header__icon{
+    display: flex;
+    color: #fff;
+    padding: 1px 4px;
+    margin-left: 30px;
+}
+
+.header__icons p{
+    text-transform: uppercase;
+    font-size: 10px;
+    display: none;
+}
+
+.header__icons:hover > p{
+    display: inline;
+    display: block;
+}
+
+.header__icons{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.headerIcon__style{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+}
+
+.header__logo img{
+width: 100px;
+object-fit: contain;
+}
+
+.header__icon_active > p{
+    display: block !important;
+}
+
